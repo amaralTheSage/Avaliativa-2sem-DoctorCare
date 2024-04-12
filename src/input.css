@@ -6,3 +6,7 @@
 * {
   font-family: "DM Sans", sans-serif;
 }
+
+.grid-flexivel {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
