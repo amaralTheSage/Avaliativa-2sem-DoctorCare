@@ -8,10 +8,20 @@
   <title>Document</title>
 </head>
 
-<body class="bg-white">
+<body class="bg-brand-green-light">
   <header class="flex justify-between items-center px-4 py-6">
     <img src="../imgs/Logo.png" alt="DoctorCare" />
-    <img src="../imgs/Icon.png" alt="" />
+
+    <nav class="md:flex gap-3 text-gray-paragraph hidden ">
+      <a href="" class="text-brand-green">Início</a>
+      <a href="">Sobre</a>
+      <a href="">Serviços</a>
+      <a href="">Depoimentos</a>
+    </nav>
+
+
+    <img src="../imgs/Icon.png" alt="" class="md:hidden"/>
+    <button class="hidden md:block uppercase border border-brand-green py-2 px-4 rounded-3xl text-sm">Agendar Consulta</button>
   </header>
 
   <main class="bg-brand-green-light">
